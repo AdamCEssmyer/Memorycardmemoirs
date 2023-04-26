@@ -4,9 +4,7 @@ html, body {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   --nav-load-time: 300ms;
-   --nav-link-load-time: 500ms;
-   --article-load-delay: calc(var(var(--nav-load-time)+ var(var(--nav-link-load-time))));
+  
 }
 
 
@@ -14,10 +12,6 @@ h1 {
    text-align: center;
    color: #FC685E;
    font-family: 'Ubuntu', cursive;
-   animation: article-load 300ms ease-in var(--article-load-delay);
-   animation-fill-mode: forwards;
-   transform: translateY(-20px);
-   opacity: 0;
 }
 
 
@@ -26,9 +20,7 @@ p {
    font-size: 20px; 
    color: whitesmoke;
    text-align: center;
-   animation: article-load 300ms ease-in calc(var(--article-load-delay)+200ms);
-   animation-fill-mode: forwards;
-   transform: translateY(-20px);
+  
 }
 
 .navbar {
@@ -43,7 +35,7 @@ p {
    align-items: center;
    border-radius: 20% 0 60% 0;
    transition: left .8s cubic-bezier(1, 0, 0, 1);
-   animation: nav-load var(--nav-load-time) ease-in;
+   
 }
 
 .change {
@@ -130,18 +122,22 @@ ul {
    transform: scaleX(1);
 }
 
-
-@keyframes article-load {
-   0% {
-      transform: translateY(20px);
+@keyframes transitionIn {
+   from {
       opacity: 0;
+      transform: rotateX(-10deg);
    }
 
-   100% {
-      transform: translateY(0px);
+   to {
       opacity: 1;
+      transform: rotateX(0);
    }
 }
+
+body {
+   animation : transitionIn 1s;
+}
+
 
 
 
