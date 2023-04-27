@@ -33,6 +33,10 @@ p2 {
    
 }
 
+img.rounded-corners{
+   border-radius: 50px;
+}
+
 .navbar {
    width: 150px;
    height: 40%;
