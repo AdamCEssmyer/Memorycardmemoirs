@@ -37,6 +37,11 @@ img.rounded-corners{
    border-radius: 50px;
 }
 
+img.gitsymbol{
+   border-radius: 50px;
+   padding-left: 48%;
+}
+
 .navbar {
    width: 150px;
    height: 40%;
