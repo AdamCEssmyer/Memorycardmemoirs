@@ -45,6 +45,7 @@ p2 {
    color: whitesmoke;
    text-align: center;
    margin-top: 85%;
+   padding-top: 30px;
    padding-left: 21.5%;
    
 }
@@ -88,6 +89,7 @@ img.splashscreen{
    left: 0;
 }
 
+
 .hamburger-menu {
    width: 50px;
    height: 50px;
@@ -130,6 +132,10 @@ ul {
 }
 .nav-item {
    margin: 25px;
+}
+
+div2{
+   padding-right: 40px;
 }
 
 
@@ -182,6 +188,15 @@ ul {
       transform: rotateX(0);
    }
 }
+
+button{
+   transition: transform 500ms;
+   transition-timing-function: ease-out;
+}
+button:hover{
+   transform: translateY(-10px);
+}
+
 
 body {
    animation : transitionIn 1s;
