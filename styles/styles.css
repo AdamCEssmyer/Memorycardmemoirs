@@ -44,9 +44,8 @@ p2 {
    font-size: 20px; 
    color: whitesmoke;
    text-align: center;
-   margin-top: 85%;
-   padding-top: 30px;
-   padding-left: 21.5%;
+   padding-top: 50px;
+   padding-left: 21%;
    
 }
 
@@ -189,13 +188,6 @@ div2{
    }
 }
 
-button{
-   transition: transform 500ms;
-   transition-timing-function: ease-out;
-}
-button:hover{
-   transform: translateY(-10px);
-}
 
 
 body {
