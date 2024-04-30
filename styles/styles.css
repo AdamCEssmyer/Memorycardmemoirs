@@ -62,13 +62,7 @@ img.splashscreen{
    padding-left: 33%;
 }
 
-.button{
-   transition: transform 250ms;
-}
 
-.button:hover{
-   transform: translateY(-10);
-}
 
 
 .navbar {
