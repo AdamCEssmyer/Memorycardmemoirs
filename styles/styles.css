@@ -208,6 +208,21 @@ body {
    animation : transitionIn 1s;
 }
 
+@media screen and (max-width: 481px) {
+   
+   #main, #subnav{
+      float: left;
+      padding:0;
+      width:94%;
+      margin:3%;
+   }
+
+   #subnav{
+      border-right: 1px dotted #aaa;
+      border-bottom: 1px dotted #aaa;
+   }
+}
+
 
 
 
