@@ -25,13 +25,17 @@ body{
 
 
 h1 {
+   font-size: 80px;
    text-align: center;
+   padding-top: 150px;
    color: #FC685E;
    font-family: 'Ubuntu', cursive;
 }
 
 
 p {
+   font-size: 25px;
+   padding: 115px;
    font-family: 'Ubuntu', sans-serif;
    font-size: 20px; 
    color: whitesmoke;
@@ -121,6 +125,10 @@ img.splashscreen{
 }
 
 .change .line-3 {
+   transform: rotateZ(90deg) translate(-15px, -10px);
+}
+
+.change .line-4 {
    transform: rotateZ(90deg) translate(-15px, -10px);
 }
 
