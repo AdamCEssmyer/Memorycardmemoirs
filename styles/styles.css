@@ -1,5 +1,4 @@
  body::before {
-  
    content: ""; /* Important */
    z-index: -1; /* Important */
    position: inherit;
@@ -34,7 +33,7 @@ h1 {
 
 
 p {
-   font-size: 25px;
+   font-size: 20px;
    padding: 50px;
    font-family: 'Ubuntu', sans-serif;
    font-size: 20px; 
@@ -45,11 +44,11 @@ p {
 
 p2 {
    font-family: 'Ubuntu', sans-serif;
-   font-size: 20px; 
+   font-size: 30px; 
    color: whitesmoke;
    text-align: center;
    padding-top: 50px;
-   padding-left: 21%;
+   padding-left: 15%;
    
 }
 
@@ -142,6 +141,7 @@ ul {
 .nav-item {
    margin: 25px;
 }
+
 
 div2{
    padding-right: 40px;
